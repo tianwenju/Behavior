@@ -7,3 +7,8 @@
 /build
 /captures
 .externalNativeBuild
+/gradle/
+/gradle.properties
+/Behavior.iml
+/.idea/
+/app/build/
