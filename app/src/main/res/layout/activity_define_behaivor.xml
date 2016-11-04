@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.design.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_define_behaivor"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fitsSystemWindows="true"
+    tools:context="com.wenjutian.behavior.DefineBehaivorActivity">
+
+    <TextView
+        android:id="@+id/depentent"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_gravity="top|left"
+        android:background="#FFFF0000"
+        android:gravity="center"
+        android:text="depentent"
+        android:textColor="@android:color/white" />
+
+    <TextView
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_gravity="top|right"
+        android:background="#FF00FF00"
+        android:gravity="center"
+        android:text="auto"
+        android:textColor="@android:color/white"
+        app:layout_behavior="com.wenjutian.behavior.behavior.DependentBehavior" />
+</android.support.design.widget.CoordinatorLayout>
